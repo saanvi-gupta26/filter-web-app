@@ -1,0 +1,24 @@
+h1{
+    font-size: 30px !important;
+    border-radius: 20px !important; 
+}
+button{
+    font-size: 25px !important;
+    border-radius: 17px !important; 
+}
+
+ .btn-success:hover{
+    background-color: rgb(220, 20, 20);
+}
+canvas{
+    border-width:30px ;
+    border-color: rgb(255, 215, 215);
+    animation-name: move;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes move{
+    from{box-shadow: 1px 1px 90px rgb(240, 155, 229);}
+    to{box-shadow: 1px 1px 30px rgb(210, 49, 103);}
+}
